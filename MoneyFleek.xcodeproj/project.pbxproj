@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4845CA1FDEFD2A00C1EC97 /* pageTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4845C91FDEFD2A00C1EC97 /* pageTabBarController.swift */; };
+		EA4845CC1FDEFDAD00C1EC97 /* exploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4845CB1FDEFDAD00C1EC97 /* exploreViewController.swift */; };
+		EA728EEC1FDEFA1400F00A48 /* mobodexter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA728EE91FDEFA1400F00A48 /* mobodexter.jpg */; };
+		EA728EED1FDEFA1400F00A48 /* airinginc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA728EEA1FDEFA1400F00A48 /* airinginc.jpg */; };
+		EA728EEE1FDEFA1400F00A48 /* yopi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA728EEB1FDEFA1400F00A48 /* yopi.jpg */; };
+		EAC19D431FDF1BD500411C7B /* airing.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC19D421FDF1BD400411C7B /* airing.png */; };
+		EAC19D461FDF1E6100411C7B /* founders1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC19D441FDF1E6100411C7B /* founders1.png */; };
+		EAC19D471FDF1E6100411C7B /* founders2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC19D451FDF1E6100411C7B /* founders2.png */; };
+		EAC19D491FDF1ED100411C7B /* investors.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC19D481FDF1ED100411C7B /* investors.png */; };
+		EAC19D4B1FDF1F3600411C7B /* quotes.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC19D4A1FDF1F3600411C7B /* quotes.png */; };
+		EAC19D4D1FDF216400411C7B /* discussion.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC19D4C1FDF216400411C7B /* discussion.png */; };
 		EAD14E0F1FDEDC7300149247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E0E1FDEDC7300149247 /* AppDelegate.swift */; };
 		EAD14E111FDEDC7300149247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E101FDEDC7300149247 /* ViewController.swift */; };
 		EAD14E141FDEDC7300149247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E121FDEDC7300149247 /* Main.storyboard */; };
@@ -14,6 +25,19 @@
 		EAD14E191FDEDC7300149247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E171FDEDC7300149247 /* LaunchScreen.storyboard */; };
 		EAD14E241FDEDC7300149247 /* MoneyFleekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E231FDEDC7300149247 /* MoneyFleekTests.swift */; };
 		EAD14E2F1FDEDC7300149247 /* MoneyFleekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E2E1FDEDC7300149247 /* MoneyFleekUITests.swift */; };
+		EAD14E3D1FDEDE8600149247 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E3C1FDEDE8600149247 /* signinViewController.swift */; };
+		EAD14E3F1FDEE47400149247 /* register1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E3E1FDEE47400149247 /* register1ViewController.swift */; };
+		EAD14E411FDEE5BF00149247 /* register2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E401FDEE5BF00149247 /* register2ViewController.swift */; };
+		EAD14E431FDEEC0700149247 /* mainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E421FDEEC0700149247 /* mainTabBarController.swift */; };
+		EAD14E461FDEF7B000149247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E121FDEDC7300149247 /* Main.storyboard */; };
+		EAD14E471FDEF7B100149247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E121FDEDC7300149247 /* Main.storyboard */; };
+		EAFAE3EB1FDF25210034B33C /* summaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3EA1FDF25210034B33C /* summaryViewController.swift */; };
+		EAFAE3ED1FDF25450034B33C /* storyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3EC1FDF25450034B33C /* storyViewController.swift */; };
+		EAFAE3EF1FDF25690034B33C /* founderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3EE1FDF25690034B33C /* founderViewController.swift */; };
+		EAFAE3F11FDF257C0034B33C /* investorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3F01FDF257C0034B33C /* investorsViewController.swift */; };
+		EAFAE3F31FDF25AE0034B33C /* faqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3F21FDF25AE0034B33C /* faqViewController.swift */; };
+		EAFAE3F51FDF25C70034B33C /* discussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3F41FDF25C70034B33C /* discussionViewController.swift */; };
+		EAFAE3F71FDF276F0034B33C /* investViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3F61FDF276F0034B33C /* investViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +58,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA4845C91FDEFD2A00C1EC97 /* pageTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageTabBarController.swift; sourceTree = "<group>"; };
+		EA4845CB1FDEFDAD00C1EC97 /* exploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exploreViewController.swift; sourceTree = "<group>"; };
+		EA728EE91FDEFA1400F00A48 /* mobodexter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobodexter.jpg; sourceTree = "<group>"; };
+		EA728EEA1FDEFA1400F00A48 /* airinginc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = airinginc.jpg; sourceTree = "<group>"; };
+		EA728EEB1FDEFA1400F00A48 /* yopi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yopi.jpg; sourceTree = "<group>"; };
+		EAC19D421FDF1BD400411C7B /* airing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airing.png; sourceTree = "<group>"; };
+		EAC19D441FDF1E6100411C7B /* founders1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = founders1.png; sourceTree = "<group>"; };
+		EAC19D451FDF1E6100411C7B /* founders2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = founders2.png; sourceTree = "<group>"; };
+		EAC19D481FDF1ED100411C7B /* investors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = investors.png; sourceTree = "<group>"; };
+		EAC19D4A1FDF1F3600411C7B /* quotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quotes.png; sourceTree = "<group>"; };
+		EAC19D4C1FDF216400411C7B /* discussion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discussion.png; sourceTree = "<group>"; };
 		EAD14E0B1FDEDC7300149247 /* MoneyFleek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyFleek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD14E0E1FDEDC7300149247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD14E101FDEDC7300149247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,17 @@
 		EAD14E2A1FDEDC7300149247 /* MoneyFleekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyFleekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD14E2E1FDEDC7300149247 /* MoneyFleekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFleekUITests.swift; sourceTree = "<group>"; };
 		EAD14E301FDEDC7300149247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD14E3C1FDEDE8600149247 /* signinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
+		EAD14E3E1FDEE47400149247 /* register1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = register1ViewController.swift; sourceTree = "<group>"; };
+		EAD14E401FDEE5BF00149247 /* register2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = register2ViewController.swift; sourceTree = "<group>"; };
+		EAD14E421FDEEC0700149247 /* mainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTabBarController.swift; sourceTree = "<group>"; };
+		EAFAE3EA1FDF25210034B33C /* summaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = summaryViewController.swift; sourceTree = "<group>"; };
+		EAFAE3EC1FDF25450034B33C /* storyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storyViewController.swift; sourceTree = "<group>"; };
+		EAFAE3EE1FDF25690034B33C /* founderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = founderViewController.swift; sourceTree = "<group>"; };
+		EAFAE3F01FDF257C0034B33C /* investorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = investorsViewController.swift; sourceTree = "<group>"; };
+		EAFAE3F21FDF25AE0034B33C /* faqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = faqViewController.swift; sourceTree = "<group>"; };
+		EAFAE3F41FDF25C70034B33C /* discussionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = discussionViewController.swift; sourceTree = "<group>"; };
+		EAFAE3F61FDF276F0034B33C /* investViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = investViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +143,34 @@
 		EAD14E0D1FDEDC7300149247 /* MoneyFleek */ = {
 			isa = PBXGroup;
 			children = (
+				EAC19D4C1FDF216400411C7B /* discussion.png */,
+				EAC19D4A1FDF1F3600411C7B /* quotes.png */,
+				EAC19D481FDF1ED100411C7B /* investors.png */,
+				EAC19D441FDF1E6100411C7B /* founders1.png */,
+				EAC19D451FDF1E6100411C7B /* founders2.png */,
+				EAC19D421FDF1BD400411C7B /* airing.png */,
+				EA728EE91FDEFA1400F00A48 /* mobodexter.jpg */,
+				EA728EEA1FDEFA1400F00A48 /* airinginc.jpg */,
+				EA728EEB1FDEFA1400F00A48 /* yopi.jpg */,
 				EAD14E0E1FDEDC7300149247 /* AppDelegate.swift */,
 				EAD14E101FDEDC7300149247 /* ViewController.swift */,
 				EAD14E121FDEDC7300149247 /* Main.storyboard */,
 				EAD14E151FDEDC7300149247 /* Assets.xcassets */,
 				EAD14E171FDEDC7300149247 /* LaunchScreen.storyboard */,
 				EAD14E1A1FDEDC7300149247 /* Info.plist */,
+				EAD14E3C1FDEDE8600149247 /* signinViewController.swift */,
+				EAD14E3E1FDEE47400149247 /* register1ViewController.swift */,
+				EAD14E401FDEE5BF00149247 /* register2ViewController.swift */,
+				EAD14E421FDEEC0700149247 /* mainTabBarController.swift */,
+				EA4845C91FDEFD2A00C1EC97 /* pageTabBarController.swift */,
+				EA4845CB1FDEFDAD00C1EC97 /* exploreViewController.swift */,
+				EAFAE3EA1FDF25210034B33C /* summaryViewController.swift */,
+				EAFAE3EC1FDF25450034B33C /* storyViewController.swift */,
+				EAFAE3EE1FDF25690034B33C /* founderViewController.swift */,
+				EAFAE3F01FDF257C0034B33C /* investorsViewController.swift */,
+				EAFAE3F21FDF25AE0034B33C /* faqViewController.swift */,
+				EAFAE3F41FDF25C70034B33C /* discussionViewController.swift */,
+				EAFAE3F61FDF276F0034B33C /* investViewController.swift */,
 			);
 			path = MoneyFleek;
 			sourceTree = "<group>";
@@ -232,9 +300,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC19D471FDF1E6100411C7B /* founders2.png in Resources */,
+				EAC19D4D1FDF216400411C7B /* discussion.png in Resources */,
+				EAC19D4B1FDF1F3600411C7B /* quotes.png in Resources */,
 				EAD14E191FDEDC7300149247 /* LaunchScreen.storyboard in Resources */,
 				EAD14E161FDEDC7300149247 /* Assets.xcassets in Resources */,
+				EA728EED1FDEFA1400F00A48 /* airinginc.jpg in Resources */,
+				EA728EEC1FDEFA1400F00A48 /* mobodexter.jpg in Resources */,
+				EAC19D431FDF1BD500411C7B /* airing.png in Resources */,
+				EA728EEE1FDEFA1400F00A48 /* yopi.jpg in Resources */,
 				EAD14E141FDEDC7300149247 /* Main.storyboard in Resources */,
+				EAC19D461FDF1E6100411C7B /* founders1.png in Resources */,
+				EAC19D491FDF1ED100411C7B /* investors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD14E461FDEF7B000149247 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD14E471FDEF7B100149247 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +338,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD14E3D1FDEDE8600149247 /* signinViewController.swift in Sources */,
+				EA4845CA1FDEFD2A00C1EC97 /* pageTabBarController.swift in Sources */,
+				EAFAE3EB1FDF25210034B33C /* summaryViewController.swift in Sources */,
+				EAFAE3F31FDF25AE0034B33C /* faqViewController.swift in Sources */,
+				EAFAE3F51FDF25C70034B33C /* discussionViewController.swift in Sources */,
+				EAFAE3F71FDF276F0034B33C /* investViewController.swift in Sources */,
+				EAD14E3F1FDEE47400149247 /* register1ViewController.swift in Sources */,
+				EAD14E411FDEE5BF00149247 /* register2ViewController.swift in Sources */,
+				EA4845CC1FDEFDAD00C1EC97 /* exploreViewController.swift in Sources */,
+				EAFAE3ED1FDF25450034B33C /* storyViewController.swift in Sources */,
 				EAD14E111FDEDC7300149247 /* ViewController.swift in Sources */,
+				EAFAE3F11FDF257C0034B33C /* investorsViewController.swift in Sources */,
+				EAD14E431FDEEC0700149247 /* mainTabBarController.swift in Sources */,
 				EAD14E0F1FDEDC7300149247 /* AppDelegate.swift in Sources */,
+				EAFAE3EF1FDF25690034B33C /* founderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MoneyFleek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fintech.MoneyFleek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MoneyFleek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fintech.MoneyFleek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +599,7 @@
 				EAD14E351FDEDC7300149247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAD14E361FDEDC7300149247 /* Build configuration list for PBXNativeTarget "MoneyFleekTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +608,7 @@
 				EAD14E381FDEDC7300149247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAD14E391FDEDC7300149247 /* Build configuration list for PBXNativeTarget "MoneyFleekUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +617,7 @@
 				EAD14E3B1FDEDC7300149247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
