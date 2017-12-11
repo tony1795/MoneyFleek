@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD14E0F1FDEDC7300149247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E0E1FDEDC7300149247 /* AppDelegate.swift */; };
+		EAD14E111FDEDC7300149247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E101FDEDC7300149247 /* ViewController.swift */; };
+		EAD14E141FDEDC7300149247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E121FDEDC7300149247 /* Main.storyboard */; };
+		EAD14E161FDEDC7300149247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E151FDEDC7300149247 /* Assets.xcassets */; };
+		EAD14E191FDEDC7300149247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E171FDEDC7300149247 /* LaunchScreen.storyboard */; };
+		EAD14E241FDEDC7300149247 /* MoneyFleekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E231FDEDC7300149247 /* MoneyFleekTests.swift */; };
+		EAD14E2F1FDEDC7300149247 /* MoneyFleekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E2E1FDEDC7300149247 /* MoneyFleekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD14E201FDEDC7300149247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD14E031FDEDC7200149247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD14E0A1FDEDC7200149247;
+			remoteInfo = MoneyFleek;
+		};
+		EAD14E2B1FDEDC7300149247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD14E031FDEDC7200149247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD14E0A1FDEDC7200149247;
+			remoteInfo = MoneyFleek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAD14E0B1FDEDC7300149247 /* MoneyFleek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyFleek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD14E0E1FDEDC7300149247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAD14E101FDEDC7300149247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAD14E131FDEDC7300149247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD14E151FDEDC7300149247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD14E181FDEDC7300149247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAD14E1A1FDEDC7300149247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD14E1F1FDEDC7300149247 /* MoneyFleekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyFleekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD14E231FDEDC7300149247 /* MoneyFleekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFleekTests.swift; sourceTree = "<group>"; };
+		EAD14E251FDEDC7300149247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD14E2A1FDEDC7300149247 /* MoneyFleekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyFleekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD14E2E1FDEDC7300149247 /* MoneyFleekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFleekUITests.swift; sourceTree = "<group>"; };
+		EAD14E301FDEDC7300149247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD14E081FDEDC7200149247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD14E1C1FDEDC7300149247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD14E271FDEDC7300149247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD14E021FDEDC7200149247 = {
+			isa = PBXGroup;
+			children = (
+				EAD14E0D1FDEDC7300149247 /* MoneyFleek */,
+				EAD14E221FDEDC7300149247 /* MoneyFleekTests */,
+				EAD14E2D1FDEDC7300149247 /* MoneyFleekUITests */,
+				EAD14E0C1FDEDC7300149247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD14E0C1FDEDC7300149247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD14E0B1FDEDC7300149247 /* MoneyFleek.app */,
+				EAD14E1F1FDEDC7300149247 /* MoneyFleekTests.xctest */,
+				EAD14E2A1FDEDC7300149247 /* MoneyFleekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD14E0D1FDEDC7300149247 /* MoneyFleek */ = {
+			isa = PBXGroup;
+			children = (
+				EAD14E0E1FDEDC7300149247 /* AppDelegate.swift */,
+				EAD14E101FDEDC7300149247 /* ViewController.swift */,
+				EAD14E121FDEDC7300149247 /* Main.storyboard */,
+				EAD14E151FDEDC7300149247 /* Assets.xcassets */,
+				EAD14E171FDEDC7300149247 /* LaunchScreen.storyboard */,
+				EAD14E1A1FDEDC7300149247 /* Info.plist */,
+			);
+			path = MoneyFleek;
+			sourceTree = "<group>";
+		};
+		EAD14E221FDEDC7300149247 /* MoneyFleekTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD14E231FDEDC7300149247 /* MoneyFleekTests.swift */,
+				EAD14E251FDEDC7300149247 /* Info.plist */,
+			);
+			path = MoneyFleekTests;
+			sourceTree = "<group>";
+		};
+		EAD14E2D1FDEDC7300149247 /* MoneyFleekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD14E2E1FDEDC7300149247 /* MoneyFleekUITests.swift */,
+				EAD14E301FDEDC7300149247 /* Info.plist */,
+			);
+			path = MoneyFleekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD14E0A1FDEDC7200149247 /* MoneyFleek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD14E331FDEDC7300149247 /* Build configuration list for PBXNativeTarget "MoneyFleek" */;
+			buildPhases = (
+				EAD14E071FDEDC7200149247 /* Sources */,
+				EAD14E081FDEDC7200149247 /* Frameworks */,
+				EAD14E091FDEDC7200149247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyFleek;
+			productName = MoneyFleek;
+			productReference = EAD14E0B1FDEDC7300149247 /* MoneyFleek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAD14E1E1FDEDC7300149247 /* MoneyFleekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD14E361FDEDC7300149247 /* Build configuration list for PBXNativeTarget "MoneyFleekTests" */;
+			buildPhases = (
+				EAD14E1B1FDEDC7300149247 /* Sources */,
+				EAD14E1C1FDEDC7300149247 /* Frameworks */,
+				EAD14E1D1FDEDC7300149247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD14E211FDEDC7300149247 /* PBXTargetDependency */,
+			);
+			name = MoneyFleekTests;
+			productName = MoneyFleekTests;
+			productReference = EAD14E1F1FDEDC7300149247 /* MoneyFleekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAD14E291FDEDC7300149247 /* MoneyFleekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD14E391FDEDC7300149247 /* Build configuration list for PBXNativeTarget "MoneyFleekUITests" */;
+			buildPhases = (
+				EAD14E261FDEDC7300149247 /* Sources */,
+				EAD14E271FDEDC7300149247 /* Frameworks */,
+				EAD14E281FDEDC7300149247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD14E2C1FDEDC7300149247 /* PBXTargetDependency */,
+			);
+			name = MoneyFleekUITests;
+			productName = MoneyFleekUITests;
+			productReference = EAD14E2A1FDEDC7300149247 /* MoneyFleekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD14E031FDEDC7200149247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Anthony Tan";
+				TargetAttributes = {
+					EAD14E0A1FDEDC7200149247 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EAD14E1E1FDEDC7300149247 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAD14E0A1FDEDC7200149247;
+					};
+					EAD14E291FDEDC7300149247 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAD14E0A1FDEDC7200149247;
+					};
+				};
+			};
+			buildConfigurationList = EAD14E061FDEDC7200149247 /* Build configuration list for PBXProject "MoneyFleek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD14E021FDEDC7200149247;
+			productRefGroup = EAD14E0C1FDEDC7300149247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD14E0A1FDEDC7200149247 /* MoneyFleek */,
+				EAD14E1E1FDEDC7300149247 /* MoneyFleekTests */,
+				EAD14E291FDEDC7300149247 /* MoneyFleekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD14E091FDEDC7200149247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD14E191FDEDC7300149247 /* LaunchScreen.storyboard in Resources */,
+				EAD14E161FDEDC7300149247 /* Assets.xcassets in Resources */,
+				EAD14E141FDEDC7300149247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD14E1D1FDEDC7300149247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD14E281FDEDC7300149247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD14E071FDEDC7200149247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD14E111FDEDC7300149247 /* ViewController.swift in Sources */,
+				EAD14E0F1FDEDC7300149247 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD14E1B1FDEDC7300149247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD14E241FDEDC7300149247 /* MoneyFleekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD14E261FDEDC7300149247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD14E2F1FDEDC7300149247 /* MoneyFleekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAD14E211FDEDC7300149247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD14E0A1FDEDC7200149247 /* MoneyFleek */;
+			targetProxy = EAD14E201FDEDC7300149247 /* PBXContainerItemProxy */;
+		};
+		EAD14E2C1FDEDC7300149247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD14E0A1FDEDC7200149247 /* MoneyFleek */;
+			targetProxy = EAD14E2B1FDEDC7300149247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAD14E121FDEDC7300149247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD14E131FDEDC7300149247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD14E171FDEDC7300149247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD14E181FDEDC7300149247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD14E311FDEDC7300149247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAD14E321FDEDC7300149247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD14E341FDEDC7300149247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoneyFleek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fintech.MoneyFleek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EAD14E351FDEDC7300149247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoneyFleek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fintech.MoneyFleek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EAD14E371FDEDC7300149247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoneyFleekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fintech.MoneyFleekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyFleek.app/MoneyFleek";
+			};
+			name = Debug;
+		};
+		EAD14E381FDEDC7300149247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoneyFleekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fintech.MoneyFleekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyFleek.app/MoneyFleek";
+			};
+			name = Release;
+		};
+		EAD14E3A1FDEDC7300149247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoneyFleekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fintech.MoneyFleekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoneyFleek;
+			};
+			name = Debug;
+		};
+		EAD14E3B1FDEDC7300149247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoneyFleekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fintech.MoneyFleekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoneyFleek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD14E061FDEDC7200149247 /* Build configuration list for PBXProject "MoneyFleek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD14E311FDEDC7300149247 /* Debug */,
+				EAD14E321FDEDC7300149247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD14E331FDEDC7300149247 /* Build configuration list for PBXNativeTarget "MoneyFleek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD14E341FDEDC7300149247 /* Debug */,
+				EAD14E351FDEDC7300149247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAD14E361FDEDC7300149247 /* Build configuration list for PBXNativeTarget "MoneyFleekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD14E371FDEDC7300149247 /* Debug */,
+				EAD14E381FDEDC7300149247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAD14E391FDEDC7300149247 /* Build configuration list for PBXNativeTarget "MoneyFleekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD14E3A1FDEDC7300149247 /* Debug */,
+				EAD14E3B1FDEDC7300149247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD14E031FDEDC7200149247 /* Project object */;
+}
