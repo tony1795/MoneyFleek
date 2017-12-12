@@ -31,6 +31,7 @@
 		EAD14E431FDEEC0700149247 /* mainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD14E421FDEEC0700149247 /* mainTabBarController.swift */; };
 		EAD14E461FDEF7B000149247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E121FDEDC7300149247 /* Main.storyboard */; };
 		EAD14E471FDEF7B100149247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD14E121FDEDC7300149247 /* Main.storyboard */; };
+		EADCDA001FE0332A006A8323 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = EADCD9FF1FE0332A006A8323 /* home.png */; };
 		EAFAE3EB1FDF25210034B33C /* summaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3EA1FDF25210034B33C /* summaryViewController.swift */; };
 		EAFAE3ED1FDF25450034B33C /* storyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3EC1FDF25450034B33C /* storyViewController.swift */; };
 		EAFAE3EF1FDF25690034B33C /* founderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAE3EE1FDF25690034B33C /* founderViewController.swift */; };
@@ -86,6 +87,7 @@
 		EAD14E3E1FDEE47400149247 /* register1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = register1ViewController.swift; sourceTree = "<group>"; };
 		EAD14E401FDEE5BF00149247 /* register2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = register2ViewController.swift; sourceTree = "<group>"; };
 		EAD14E421FDEEC0700149247 /* mainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTabBarController.swift; sourceTree = "<group>"; };
+		EADCD9FF1FE0332A006A8323 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		EAFAE3EA1FDF25210034B33C /* summaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = summaryViewController.swift; sourceTree = "<group>"; };
 		EAFAE3EC1FDF25450034B33C /* storyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storyViewController.swift; sourceTree = "<group>"; };
 		EAFAE3EE1FDF25690034B33C /* founderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = founderViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		EAD14E0D1FDEDC7300149247 /* MoneyFleek */ = {
 			isa = PBXGroup;
 			children = (
+				EADCD9FF1FE0332A006A8323 /* home.png */,
 				EAC19D4C1FDF216400411C7B /* discussion.png */,
 				EAC19D4A1FDF1F3600411C7B /* quotes.png */,
 				EAC19D481FDF1ED100411C7B /* investors.png */,
@@ -310,6 +313,7 @@
 				EAC19D431FDF1BD500411C7B /* airing.png in Resources */,
 				EA728EEE1FDEFA1400F00A48 /* yopi.jpg in Resources */,
 				EAD14E141FDEDC7300149247 /* Main.storyboard in Resources */,
+				EADCDA001FE0332A006A8323 /* home.png in Resources */,
 				EAC19D461FDF1E6100411C7B /* founders1.png in Resources */,
 				EAC19D491FDF1ED100411C7B /* investors.png in Resources */,
 			);

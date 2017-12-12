@@ -13,6 +13,13 @@ class register2ViewController: UIViewController {
     
     
     @IBAction func registerButtonClicked(_ sender: Any) {
+        
+        let mainTabBarController = self.storyboard?.instantiateViewController(withIdentifier:
+            "mainTabBarController") as! mainTabBarController
+        
+        self.present(mainTabBarController, animated: true)
+        
+
     }
     
     

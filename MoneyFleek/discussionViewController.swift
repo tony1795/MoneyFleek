@@ -15,6 +15,9 @@ class discussionViewController: UIViewController {
         
     }
     
+    @IBAction func backButtonClicked(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     
     override func viewDidLoad() {
